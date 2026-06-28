@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+venv/
+.venv/
+
+# Data (large files - downloaded locally, not committed)
+data/*.csv
+data/*.json
+!data/.gitkeep
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Output clutter
+*.tmp
